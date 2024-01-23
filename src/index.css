@@ -1,0 +1,267 @@
+*,*:before,*:after{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+img{
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+h1{
+  color:#2D3436;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0.25px;
+}
+
+p{
+  color: #616161;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px; 
+  letter-spacing: 0.25px;
+  margin-bottom: 15px;
+  width: 330px;
+}
+
+.title{
+  height: 50px;
+  margin: 10px 0 25px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.title span{
+  color: #374234;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+}
+
+.arrow{
+  width: 30px;
+}
+
+.arrow:hover{
+  scale: 1.1;
+  cursor: pointer;
+}
+
+.avocado{
+  width: 30px;
+  margin-right: 16px;
+}
+
+h2{
+  color:#2D3436;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  margin-bottom: 15px;
+}
+
+.section{
+  margin: auto;
+  width: 360px;
+}
+
+.goal_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 360px;
+  gap: 16px;
+}
+
+.goal_item{
+  border-radius: 20px;
+  border: 1.042px solid #E1E1E1;
+  background: linear-gradient(214deg, #F1F1F1 12.33%, #FFF 69.93%);
+  color:#2D3436;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.208px;
+  display: flex;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.goal_item:hover{
+  background:rgba(95, 203, 57, 0.3);
+  cursor: pointer;
+}
+
+.goal_image{
+  width: 84px;
+  height: 172px;
+}
+
+.goal_text{
+  margin-top: 62px;
+  margin-left: 10px;
+}
+
+.goal_text-2{
+  margin-top: 51px;
+  margin-left: 10px;
+}
+
+input{
+  width: 360px;
+  height: 64px;
+  border-radius: 10px;
+  border: 1px solid #E1E1E1;
+  margin-top: 10px;
+  color:#2D3436;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  padding-left: 15px;
+}
+
+.continue_btn{
+  width: 360px;
+  height: 50px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.continue_btn:hover{
+  cursor: pointer;
+}
+
+.measure_btns{
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid#5FCB39;
+  height: 32px;
+}
+
+.measure_btn, .measure_btn-2{
+  color:#5FCB39;
+  width: 176px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  border-radius: 10px 0 0 10px;
+  cursor: pointer;
+}
+
+.measure_btn{
+  width: 176px;
+  border-radius: 10px 0 0 10px;
+}
+
+.measure-btn-2{
+  width: 183px;
+  border-radius: 0 10px 10px 0;
+}
+
+.destr_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.destr{
+  width: 172px;
+  height: 60px;
+  padding: 12px 24px 12px 15px;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid #E1E1E1;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.destr:hover{
+  background-color:rgba(95, 203, 57, 0.3);
+  cursor: pointer;
+}
+
+.destr img{
+  width: 30px;
+  height: 30px;
+}
+
+h4{
+  color:#2D3436;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+}
+
+.physical_box{
+  width: 172px;
+  height: 80px;
+  border-radius: 20px;
+  border: 1px solid #E1E1E1;
+  margin-top: 10px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.physical_box:hover{
+  background-color:rgba(95, 203, 57, 0.3);
+  cursor: pointer;
+}
+
+h3{
+  color:#2D3436;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  width: 105px;
+}
+
+.girl{
+  display: flex;
+  gap: 15px;
+}
+
+.congratulation_box{
+  padding: 20px;
+  background-color: #dff5d7;
+  border: 4px solid #4caf50;
+  border-radius: 90px 0px;
+  margin-top: 100px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.congratulation_title{
+  color: #4caf50;
+  font-size: 30px;
+  text-align: center;
+}
+
+.congratulation_text{
+  color: #4caf50;
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  margin-bottom: 0;
+}
+
